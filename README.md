@@ -4,7 +4,7 @@ Power up the plain o'boring terminal in MacOS with iTerm and fish shell.
 
 ## Preview
 
-<img width="1024" alt="Screenshot 2022-11-03 at 22 53 42" src="https://user-images.githubusercontent.com/2121605/199754961-7ea2dec2-16f4-4b98-a792-5c3dde71015b.png">
+![complete setup of iTerm2+fish shell](/assests/images/iterm-preview.png)
 
 ## Tools
 
@@ -101,7 +101,7 @@ At last, fonts installation is optional, feel free to skip this step if not plan
 ```
 
 Open the **Font Book** app to verify that the fonts are installed.
-<img width="1024" alt="Screenshot 2022-11-04 at 02 35 26" src="https://user-images.githubusercontent.com/2121605/199806311-24c5456c-2f3f-43b5-8af4-70f21576be8b.png">
+![Font Book app showing Powerline fonts installed](/assests/images/font-book.png)
 
 ## Configurations
 
@@ -122,5 +122,4 @@ Then restart the terminal session and try again.
 
 ## Credit
 
-Original tutorial
-https://github.com/ellerbrock/fish-shell-setup-osx
+Original tutorial: [fish-shell-setup-osx](https://github.com/ellerbrock/fish-shell-setup-osx) by [ellerbrock](https://github.com/ellerbrock)
