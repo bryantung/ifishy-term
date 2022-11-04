@@ -4,22 +4,26 @@ Power up the plain o'boring terminal in MacOS with iTerm and fish shell.
 
 ## Table of contents 📖
 
-- [Preview](#preview-)
-- [Tools](#tools-)
+- [Preview 👀](#preview-)
+- [Tools 🔨](#tools-)
 - [Installation](#installation-)
   - [iTerm2](#iterm2-optional)
   - [Homebrew](#homebrew)
   - [fish shell](#fish-shell)
   - [Fisher](#fisher)
   - [Powerline fonts](#powerline-fonts-optional)
-- [Configurations](#configurations-)
+- [Configurations 📝](#configurations-)
   - [config.fish](#configfish)
   - [Themes](#themes)
   - [fish_config](#fish_config)
-- [Troubleshooting](#troubleshooting-)
+- [Extras ✨](#extras-)
+  - [iTerm2 toggle shortcut](#iterm2-toggle-shortcut)
+  - [iTerm2 transparency](#iterm2-transparency)
+  - [iTerm2 split panes](#iterm2-split-panes)
+- [Troubleshooting 🛠](#troubleshooting-)
   - [`Brew` not found](#brew-not-found)
   - [Weird symbols after using themes](#weird-symbols-after-using-themes)
-- [Credits](#credits-)
+- [Credits 💰](#credits-)
 
 ## Preview 👀
 
@@ -231,6 +235,60 @@ It will open a new browser page, here we can
 ![fish_config](/assests/images/fish_config.png)
 
 > Remember to `^C` to end the config session when you're done.
+
+## Extras ✨
+
+> This section is also optional
+
+### iTerm2 toggle shortcut
+
+Ever been into situations like you just want to switch between the terminal and your editor/browser, and using `⌘Tab` is too slow and prone to tabbing in a wrong window?  
+We've got you covered here, introducing iTerm2 toggle shortcut!  
+Just go to **iTerm2** > **Preferences** > **Keys** > **Hotkey**
+
+- ☑️ Show/hide all windows with a system-wide hotkey - check this option.
+- Hotkey: `your preferred keys combination` - recommend to use `⬆Space` since it's not used by default in MacOS.
+
+![iTerm2 toggler shortcut](/assests/images/iterm2-toggler.png)
+
+With the new shortcut keys, you can toggle the terminal anytime anywhere!
+
+> Not really anywhere, if you are using multiple Desktop spaces, it will automatically switch to the space that the terminal was opened.  
+> To prevent this, here's a tips to use the terminal in any active space that you are currently working on.
+>
+> 1. Open the context menu for iTerm2 in the Dock.
+> 2. Go to **Options**.
+> 3. In the _Assign To_ section, make sure to check **All Desktops** option.
+>
+> ![Keep iTerm2 in every space](/assests/images/iterm2-spaces.png)
+
+### iTerm2 transparency
+
+Able to toggle terminal anywhere is great, but it's also important for us to keep track of what we are working in the background.  
+We can change the window transparency of the terminal to stay aware of the stuffs that we are working with.  
+Also we can set blur for the transparency to keep some privacy of the background.  
+Go to **iTerm2** > **Preferences** > **Profiles** > **Window**
+
+- Adjust the Transparency value, 0 is not tranparent (opaque), 100 is full transparent.
+- Check the Blur option if you want to have some privacy on the background, the larger the value the blurer it became.
+- Check the **Use transparency** option so that every new terminal window will follow the same settings.
+
+![iTerm2 with transparent window settings](/assests/images/iterm2-transparency.png)
+
+### iTerm2 split panes
+
+Having multiple shells in a single view is very useful, we can achieve that by using split panes.
+
+- `⌘D` - To split vertically _(left/right)_
+- `⬆⌘D` - To split horizontally _(top/bottom)_
+
+To differentiate which pane that is currently active, we could use the dimming option.  
+Go to **iTerm2** > **Preferences** > **Appearance** > **Dimming**
+
+- Set the dimming amount to a comfortable level.
+- ☑️ Dim inactive split panes - check this option.
+
+![iTerm2 panes dimming](/assests/images/iterm2-dimming.png)
 
 ## Troubleshooting 🛠
 
