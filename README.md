@@ -2,6 +2,25 @@
 
 Power up the plain o'boring terminal in MacOS with iTerm and fish shell.
 
+## Table of contents 📖
+
+- [Preview](#preview-)
+- [Tools](#tools-)
+- [Installation](#installation-)
+  - [iTerm2](#iterm2-optional)
+  - [Homebrew](#homebrew)
+  - [fish shell](#fish-shell)
+  - [Fisher](#fisher)
+  - [Powerline fonts](#powerline-fonts-optional)
+- [Configurations](#configurations-)
+  - [config.fish](#configfish)
+  - [Themes](#themes)
+  - [fish_config](#fish_config)
+- [Troubleshooting](#troubleshooting-)
+  - [`Brew` not found](#brew-not-found)
+  - [Weird symbols after using themes](#weird-symbols-after-using-themes)
+- [Credits](#credits-)
+
 ## Preview 👀
 
 ![complete setup of iTerm2+fish shell](/assests/images/iterm-preview.png)
@@ -207,7 +226,7 @@ It will open a new browser page, here we can
 - set the color scheme and prompt
 - view all functions and variables
 - view shell history
-- etc.
+- full [documentation](https://fishshell.com/docs/current/cmds/fish_config.html) here
 
 ![fish_config](/assests/images/fish_config.png)
 
